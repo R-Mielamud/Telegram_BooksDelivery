@@ -14,5 +14,4 @@ MANIFEST_PATH = BASE_DIR / "manifest.json"
 
 # API
 
-#https://viberbksdlv.tk
-API_BASE_URL = "http://localhost:8000/api/"
+API_BASE_URL = "https://viberbksdlv.tk/api/"

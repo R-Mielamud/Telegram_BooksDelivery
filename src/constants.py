@@ -4,6 +4,8 @@ import os
 
 load_dotenv()
 
+# Base
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Telegram Bot

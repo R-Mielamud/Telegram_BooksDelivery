@@ -11,3 +11,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
 MANIFEST_PATH = BASE_DIR / "manifest.json"
+
+# API
+
+#https://viberbksdlv.tk
+API_BASE_URL = "http://localhost:8000/api/"

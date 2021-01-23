@@ -17,3 +17,5 @@ MANIFEST_PATH = BASE_DIR / "manifest.json"
 # API
 
 API_BASE_URL = "https://viberbksdlv.tk/api/"
+
+API_KEY = os.environ.get("API_KEY", "abc")

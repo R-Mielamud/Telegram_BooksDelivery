@@ -8,7 +8,7 @@ class Requester:
     def __init__(self, base_url="", return_as_class=False):
         self.base = base_url
         self.return_as_class = return_as_class
-        self.headers = { "Authozization": API_KEY }
+        self.headers = { "Authorization": API_KEY }
 
     def decode(self, status, text):
         if status < 200 or status > 299:

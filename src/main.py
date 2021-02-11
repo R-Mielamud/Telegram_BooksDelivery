@@ -48,8 +48,8 @@ def on_message(message):
 
     if conversation.answers.stopped:
         users.partial_update(user.id, convers_answers_data={})
+        conversation = Conversation(manifest, default_answers={})
     elif not question:
-        # save data
         update_data = {"convers_answers_data": {}}
         action = conversation.answers.get("action")
 
